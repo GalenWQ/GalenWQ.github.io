@@ -3950,3 +3950,9 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+/* Additional mods */
+
+	.pageclip-form_success {
+		background: hsla(0, 0, 100%, .3);
+	}
