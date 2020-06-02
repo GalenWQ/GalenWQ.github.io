@@ -224,3 +224,9 @@ b {
 	widows: 2;
 	text-align: left
 }
+
+@media only screen AND (max-width: 736px) {
+  .mobileHidden { 
+    display: none; 
+  }
+}
