@@ -11,6 +11,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="TemplateData/UnityProgress.js"></script>
+	    <script src="Untitled/Build/UnityLoader.js"></script>
+	    <script>
+	      var unityInstance = UnityLoader.instantiate("unityContainer", "Untitled/Build/Builds.json", {onProgress: UnityProgress});
+	    </script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -49,7 +54,15 @@
 									<header class="major">
 										<h1>Untitled</h1>
 									</header>
-									<iframe src="https://i.simmer.io/@Troublesmith/untitled" style="width:960px;height:600px"></iframe>
+									<!-- <iframe src="https://i.simmer.io/@Troublesmith/untitled" style="width:960px;height:600px"></iframe> -->
+									<div class="webgl-content">
+								      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+								      <div class="footer">
+								        <div class="webgl-logo"></div>
+								        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+								        <div class="title">Untitled</div>
+								      </div>
+								    </div>
 									<p>Untitled is an original art game I made for Cinema & Media Studies 257: Video Games & Identity. As with many other "art games", the goal of this game is not to be enjoyable. Instead, it is meant to evoke a highly personal experience by letting the player step into the perspective of a student writing a high-stakes final essay.
 
 									I believe that video games are an extraordinarily powerful tool to help people understand and inhabit new perspectives and experiences.</p>
