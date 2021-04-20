@@ -1,0 +1,150 @@
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color: #0b5394;
+	color: #ffffff;
+}
+
+.main {
+	margin-left: 250px; /* Same as the width of the sidenav */
+  background-color: #ffffff;
+	vertical-align: top;
+	width: 410pt;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+	color: #7f7f7f;
+	font-size: 10pt;
+	font-family: "Century Gothic";
+}
+
+p {
+	margin: 0;
+	color: #7f7f7f;
+	font-size: 10pt;
+	font-family: "Century Gothic";
+}
+
+.sidebar p {
+	color: #ffffff;
+	font-size: 12pt;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1 {
+	padding-top: 15pt;
+	color: #0070c0;
+	font-size: 16pt;
+	padding-bottom: 0pt;
+	font-family: "Century Gothic";
+	line-height: normal;
+	page-break-after: avoid;
+	text-align: left;
+	margin-block-start: auto;
+	margin-block-end: auto;
+}
+
+h2 {
+	color: #ffffff;
+	font-size: 20pt;
+	font-family: "Century Gothic";
+	font-weight: 700;
+	margin-block-start: auto;
+	margin-block-end: auto;
+  padding-left: 15px;
+}
+
+h3 {
+	color: #ffffff;
+	font-family: "Century Gothic";
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+	line-height: normal;
+	page-break-after: avoid;
+	font-weight: normal;
+	margin-block-start: auto;
+	margin-block-end: auto;
+	font-size: 16pt;
+  padding-left: 15px;
+}
+
+h4 {
+	color: #ffffff;
+	font-family: "Century Gothic";
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+	line-height: normal;
+	page-break-after: avoid;
+	text-align: center;
+	font-weight: normal;
+	margin-block-start: auto;
+	margin-block-end: auto;
+	font-size: 14pt;
+}
+
+h5 {
+	padding-top: 4pt;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 12pt;
+	padding-bottom: 0pt;
+	font-family: "Century Gothic";
+	line-height: normal;
+	page-break-after: avoid;
+	text-align: left
+}
+
+h6 {
+	padding-top: 2pt;
+	color: #ffffff;
+	font-size: 12pt;
+	padding-bottom: 0pt;
+	font-family: "Century Gothic";
+	line-height: normal;
+	page-break-after: avoid;
+	font-style: italic;
+	text-align: left
+}
+
+b {
+	color: inherit;
+}
+
+.main-sub-head {
+	font-size: 11pt;
+}
+
+.date {
+	font-size: 11pt;
+	float: right;
+}
+
+.sb-item {
+	padding-bottom: 6pt;
+  font-weight: bold;
+}
+
+.icon-item {
+  font-family: "Century Gothic";
+  margin: 12px;
+}
+
+img {
+  margin-right: 15px;
+  vertical-align: middle;
+}
